@@ -10,7 +10,7 @@ function draw() {
   stroke(255);
   noFill();
   drawCircle(300, 200, 300);
-  noLoop();
+  // noLoop();
 }
 function drawCircle(x, y, r) {
   ellipse(x, y, r);
